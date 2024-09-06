@@ -1,0 +1,25 @@
+< Runtime for printing an integer >
+
+The runtime for printing an integer is assumed to be O(log₂n) when the base is 2. 
+In each recursive call, the method divides the toPrint value by the base (in this case, 2) 
+until the base case is reached, which tells that the input value is halved in each recursive call. 
+This shows that it has a logarithmic complexity, indicating the logarithmic relationship 
+between the input size and the number of operations performed. 
+
+
+< Runtime for Fibonacci >
+
+Runtime for Fibonacci with n = 30: 62 milliseconds
+Runtime for Fibonacci with n = 31: 301 milliseconds
+Runtime for Fibonacci with n = 32: 560 milliseconds
+Runtime for Fibonacci with n = 33: 1014 milliseconds
+Runtime for Fibonacci with n = 34: 1842 milliseconds
+Runtime for Fibonacci with n = 35: 3425 milliseconds
+
+Based on these runtime data, the big O notation is assumed to be O(2^n).  
+As n increases, the runtime rate roughly gets doubled each time, 
+which shows the exponential growth pattern. Therefore, an exponential time complexity is observed.   
+
+
+
+
